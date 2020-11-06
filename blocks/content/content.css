@@ -1,0 +1,27 @@
+.content {
+    max-width: 1280px;
+    align-self: center;
+    width: 100%;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 0;
+}
+
+
+@media (max-width: 1024px) {
+    .content {
+        max-width: 1024px;
+    }
+}
+
+@media (max-width: 768px) {
+    .content {
+        max-width: 768px;
+    }
+}
+
+@media (max-width: 320px) {
+    .content {
+        max-width: 320px;
+    }
+}

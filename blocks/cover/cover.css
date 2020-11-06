@@ -1,0 +1,23 @@
+.cover {
+    background-image: url('../../images/cover-trains.jpg');
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    margin: 0 48px;
+    padding: 0;
+}
+
+.cover::before {
+    content: "";
+    width: 0;
+    height: 0;
+    padding-top: calc(740 / 1184 * 100%);
+}
+
+
+@media (max-width: 1024px) {
+    .cover {
+        margin: 0;
+    }
+}
