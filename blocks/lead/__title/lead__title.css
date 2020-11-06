@@ -6,6 +6,7 @@
     line-height: 1.04;
     margin: auto;
     padding: 0;
+    font-family: 'Inter';
 }
 
 @media (max-width: 720px) {
